@@ -27,7 +27,6 @@ typedef struct {
 //分配并初始化
 void SqListInit(SqList *L) {
     if (!L) return;
-    
     L->elem = malloc(INIT_SIZE*sizeof(ElemType));
     if(!L->elem) exit(0);
     L->length = 0;
@@ -103,7 +102,7 @@ ElemType* SqListDelete(SqList *L, int i) {
  *  @return 返回查找到的元素指针
  */
 ElemType* SqListElem(SqList *L, int i) {
-    if (!L || i<1 || i>L->length+1) return NULL;
+    if (i<1 || i>L->length+1) return NULL;
     return L->elem+i-1;
 }
 
@@ -115,9 +114,7 @@ ElemType* SqListElem(SqList *L, int i) {
  *
  *  @return 返回查找到的位置，没有则返回0
  */
-int SqListLocation(SqList *L, ElemType e) {
-    if (!L) return 0;
-    
+int SqListLocation(SqList *L, ElemType e) {    
     int i = 1;
     for (ElemType *p = L->elem; p<L->elem+L->length; p++) {
         if (*p == e) {
@@ -127,6 +124,12 @@ int SqListLocation(SqList *L, ElemType e) {
     }
     
     return 0;
+}
+
+//顺序表置空
+void SqListClear(SqList *L) {
+    L->length = 0;
+    printf("已清空\n");
 }
 
 //打印元素
@@ -169,8 +172,10 @@ int main(int argc, const char * argv[]) {
     SqListDelete(L,3);
     SqListTraverse(L,MyPrint);
     
-    SqListDestroy(L);
+    SqListClear(L);
     SqListTraverse(L,MyPrint);
+    
+    SqListDestroy(L);
     return 0;
 }
 
