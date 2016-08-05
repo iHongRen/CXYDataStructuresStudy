@@ -8,10 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		7456351D1D46F83B003FF09D /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 745635141D46F83B003FF09D /* main.c */; };
-		7456351E1D46F83B003FF09D /* SLQueue.c in Sources */ = {isa = PBXBuildFile; fileRef = 745635151D46F83B003FF09D /* SLQueue.c */; };
-		7456351F1D46F83B003FF09D /* SNList.c in Sources */ = {isa = PBXBuildFile; fileRef = 745635171D46F83B003FF09D /* SNList.c */; };
-		745635201D46F83B003FF09D /* SqList.c in Sources */ = {isa = PBXBuildFile; fileRef = 745635191D46F83B003FF09D /* SqList.c */; };
-		745635211D46F83B003FF09D /* SqStack.c in Sources */ = {isa = PBXBuildFile; fileRef = 7456351B1D46F83B003FF09D /* SqStack.c */; };
+		7456352C1D49E0A3003FF09D /* SqList.c in Sources */ = {isa = PBXBuildFile; fileRef = 7456352A1D49E0A3003FF09D /* SqList.c */; };
+		7456352F1D49E0AB003FF09D /* SNList.c in Sources */ = {isa = PBXBuildFile; fileRef = 7456352D1D49E0AB003FF09D /* SNList.c */; };
+		745635321D49E0B3003FF09D /* SLQueue.c in Sources */ = {isa = PBXBuildFile; fileRef = 745635301D49E0B3003FF09D /* SLQueue.c */; };
+		745635351D49E0BC003FF09D /* SqStack.c in Sources */ = {isa = PBXBuildFile; fileRef = 745635331D49E0BC003FF09D /* SqStack.c */; };
+		745635381D49E11E003FF09D /* BiTree.c in Sources */ = {isa = PBXBuildFile; fileRef = 745635361D49E11E003FF09D /* BiTree.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,14 +30,16 @@
 /* Begin PBXFileReference section */
 		7456350A1D46F7F3003FF09D /* C_DataStructures */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = C_DataStructures; sourceTree = BUILT_PRODUCTS_DIR; };
 		745635141D46F83B003FF09D /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
-		745635151D46F83B003FF09D /* SLQueue.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SLQueue.c; sourceTree = "<group>"; };
-		745635161D46F83B003FF09D /* SLQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLQueue.h; sourceTree = "<group>"; };
-		745635171D46F83B003FF09D /* SNList.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SNList.c; sourceTree = "<group>"; };
-		745635181D46F83B003FF09D /* SNList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNList.h; sourceTree = "<group>"; };
-		745635191D46F83B003FF09D /* SqList.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SqList.c; sourceTree = "<group>"; };
-		7456351A1D46F83B003FF09D /* SqList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SqList.h; sourceTree = "<group>"; };
-		7456351B1D46F83B003FF09D /* SqStack.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SqStack.c; sourceTree = "<group>"; };
-		7456351C1D46F83B003FF09D /* SqStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SqStack.h; sourceTree = "<group>"; };
+		7456352A1D49E0A3003FF09D /* SqList.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SqList.c; sourceTree = "<group>"; };
+		7456352B1D49E0A3003FF09D /* SqList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SqList.h; sourceTree = "<group>"; };
+		7456352D1D49E0AB003FF09D /* SNList.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SNList.c; sourceTree = "<group>"; };
+		7456352E1D49E0AB003FF09D /* SNList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNList.h; sourceTree = "<group>"; };
+		745635301D49E0B3003FF09D /* SLQueue.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SLQueue.c; sourceTree = "<group>"; };
+		745635311D49E0B3003FF09D /* SLQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLQueue.h; sourceTree = "<group>"; };
+		745635331D49E0BC003FF09D /* SqStack.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SqStack.c; sourceTree = "<group>"; };
+		745635341D49E0BC003FF09D /* SqStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SqStack.h; sourceTree = "<group>"; };
+		745635361D49E11E003FF09D /* BiTree.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = BiTree.c; sourceTree = "<group>"; };
+		745635371D49E11E003FF09D /* BiTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BiTree.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,16 +73,58 @@
 			isa = PBXGroup;
 			children = (
 				745635141D46F83B003FF09D /* main.c */,
-				745635151D46F83B003FF09D /* SLQueue.c */,
-				745635161D46F83B003FF09D /* SLQueue.h */,
-				745635171D46F83B003FF09D /* SNList.c */,
-				745635181D46F83B003FF09D /* SNList.h */,
-				745635191D46F83B003FF09D /* SqList.c */,
-				7456351A1D46F83B003FF09D /* SqList.h */,
-				7456351B1D46F83B003FF09D /* SqStack.c */,
-				7456351C1D46F83B003FF09D /* SqStack.h */,
+				745635261D49DF21003FF09D /* 顺序表 */,
+				745635291D49DF4D003FF09D /* 链表 */,
+				745635281D49DF42003FF09D /* 队列 */,
+				745635271D49DF34003FF09D /* 栈 */,
+				745635251D49DF0D003FF09D /* 二叉树 */,
 			);
 			path = C_DataStructures;
+			sourceTree = "<group>";
+		};
+		745635251D49DF0D003FF09D /* 二叉树 */ = {
+			isa = PBXGroup;
+			children = (
+				745635361D49E11E003FF09D /* BiTree.c */,
+				745635371D49E11E003FF09D /* BiTree.h */,
+			);
+			path = "二叉树";
+			sourceTree = "<group>";
+		};
+		745635261D49DF21003FF09D /* 顺序表 */ = {
+			isa = PBXGroup;
+			children = (
+				7456352A1D49E0A3003FF09D /* SqList.c */,
+				7456352B1D49E0A3003FF09D /* SqList.h */,
+			);
+			path = "顺序表";
+			sourceTree = "<group>";
+		};
+		745635271D49DF34003FF09D /* 栈 */ = {
+			isa = PBXGroup;
+			children = (
+				745635331D49E0BC003FF09D /* SqStack.c */,
+				745635341D49E0BC003FF09D /* SqStack.h */,
+			);
+			path = "栈";
+			sourceTree = "<group>";
+		};
+		745635281D49DF42003FF09D /* 队列 */ = {
+			isa = PBXGroup;
+			children = (
+				745635301D49E0B3003FF09D /* SLQueue.c */,
+				745635311D49E0B3003FF09D /* SLQueue.h */,
+			);
+			path = "队列";
+			sourceTree = "<group>";
+		};
+		745635291D49DF4D003FF09D /* 链表 */ = {
+			isa = PBXGroup;
+			children = (
+				7456352D1D49E0AB003FF09D /* SNList.c */,
+				7456352E1D49E0AB003FF09D /* SNList.h */,
+			);
+			path = "链表";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,11 +183,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7456351E1D46F83B003FF09D /* SLQueue.c in Sources */,
-				745635201D46F83B003FF09D /* SqList.c in Sources */,
+				745635381D49E11E003FF09D /* BiTree.c in Sources */,
 				7456351D1D46F83B003FF09D /* main.c in Sources */,
-				745635211D46F83B003FF09D /* SqStack.c in Sources */,
-				7456351F1D46F83B003FF09D /* SNList.c in Sources */,
+				7456352C1D49E0A3003FF09D /* SqList.c in Sources */,
+				745635321D49E0B3003FF09D /* SLQueue.c in Sources */,
+				745635351D49E0BC003FF09D /* SqStack.c in Sources */,
+				7456352F1D49E0AB003FF09D /* SNList.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +309,7 @@
 				745635131D46F7F3003FF09D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

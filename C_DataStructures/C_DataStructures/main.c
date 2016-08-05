@@ -11,12 +11,14 @@
 #include "SNList.h"
 #include "SqStack.h"
 #include "SLQueue.h"
+#include "BiTree.h"
 
 int main(int argc, const char * argv[]) {
     
 //    SqListTest();
 //    SNListTest();
 //    SqStackTest();
-    SLQueueTest();
+//    SLQueueTest();
+    BTreeTest();
     return 0;
 }
